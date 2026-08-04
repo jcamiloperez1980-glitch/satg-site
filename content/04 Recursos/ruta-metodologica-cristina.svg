@@ -1,0 +1,199 @@
+<svg viewBox="0 0 700 1300" xmlns="http://www.w3.org/2000/svg" role="img">
+  <title>Ruta metodológica — Ruta A</title>
+
+  <style>
+    text { font-family: system-ui, -apple-system, sans-serif; }
+    .phase-num { font-size: 14px; font-weight: 700; fill: #fff; }
+    .phase-label { font-size: 18px; font-weight: 700; fill: #1a1a2e; }
+    .phase-weeks { font-size: 13px; fill: #777; }
+    .detail { font-size: 13px; fill: #444; }
+    .product-label { font-size: 13px; font-weight: 700; fill: #1a1a2e; }
+    .product-text { font-size: 12px; fill: #555; }
+    .oe-tag { font-size: 11px; font-weight: 700; fill: #fff; }
+    .arrow-line { stroke: #999; stroke-width: 2; fill: none; marker-end: url(#arrow-down); }
+    .cycle-line { stroke: #f19837; stroke-width: 2; stroke-dasharray: 6,4; fill: none; }
+    .cycle-label { font-size: 13px; fill: #f19837; font-weight: 600; font-style: italic; }
+    .section-title { font-size: 15px; font-weight: 700; fill: #1a1a2e; text-transform: uppercase; letter-spacing: 1.5px; }
+    .ht-label { font-size: 13px; font-weight: 700; fill: #1a1a2e; }
+    .ht-detail { font-size: 12px; fill: #555; }
+    .inst-label { font-size: 12px; fill: #444; }
+  </style>
+
+  <defs>
+    <marker id="arrow-down" markerWidth="10" markerHeight="8" refX="5" refY="4" orient="auto">
+      <polygon points="0 0, 10 4, 0 8" fill="#999" />
+    </marker>
+  </defs>
+
+  <!-- Background -->
+  <rect width="700" height="1300" fill="#fff" rx="6"/>
+
+  <!-- ==================== FASE 0 ==================== -->
+  <rect x="30" y="30" width="640" height="130" rx="10" fill="#f8f8fa" stroke="#ff6666" stroke-width="2.5"/>
+  <rect x="30" y="30" width="640" height="38" rx="10" fill="#ff6666"/>
+  <rect x="30" y="58" width="640" height="4" fill="#ff6666"/>
+  <text x="50" y="55" class="phase-num">FASE 0</text>
+  <text x="120" y="55" class="phase-num">PREPARACIÓN</text>
+  <text x="580" y="55" class="phase-num" font-size="12" font-weight="400">Sem 1–3</text>
+
+  <text x="50" y="90" class="detail">• Aval de la autoridad tradicional Koreguaje</text>
+  <text x="50" y="110" class="detail">• Consentimiento informado</text>
+  <text x="370" y="90" class="detail">• Revisión del PEI y currículo</text>
+  <text x="370" y="110" class="detail">• Validación de instrumentos</text>
+  <text x="50" y="145" class="product-label">Producto:</text>
+  <text x="130" y="145" class="product-text">Instrumentos aprobados + aval comunitario</text>
+
+  <!-- Arrow down -->
+  <line x1="350" y1="160" x2="350" y2="190" class="arrow-line"/>
+
+  <!-- ==================== FASE 1 ==================== -->
+  <rect x="30" y="195" width="640" height="130" rx="10" fill="#f8f8fa" stroke="#2ea8e5" stroke-width="2.5"/>
+  <rect x="30" y="195" width="640" height="38" rx="10" fill="#2ea8e5"/>
+  <rect x="30" y="223" width="640" height="4" fill="#2ea8e5"/>
+  <text x="50" y="220" class="phase-num">FASE 1</text>
+  <text x="120" y="220" class="phase-num">EXPLORACIÓN</text>
+  <text x="480" y="220" class="phase-num" font-size="12" font-weight="400">Sem 4–7</text>
+  <rect x="570" y="206" width="46" height="20" rx="4" fill="#fff" fill-opacity="0.3"/>
+  <text x="593" y="220" text-anchor="middle" class="oe-tag">OE 1</text>
+
+  <text x="50" y="255" class="detail">• Entrevistas semiestructuradas a sabedores y familias</text>
+  <text x="50" y="275" class="detail">• Grupos focales con niños (mediados por dibujo y oralidad)</text>
+  <text x="50" y="295" class="detail">• Diario de campo (inicio)</text>
+  <text x="50" y="315" class="product-label">Producto:</text>
+  <text x="130" y="315" class="product-text">Mapa de saberes prioritarios Koreguaje + categorías emergentes</text>
+
+  <!-- Arrow down -->
+  <line x1="350" y1="325" x2="350" y2="355" class="arrow-line"/>
+
+  <!-- ==================== FASE 2 ==================== -->
+  <rect x="30" y="360" width="640" height="130" rx="10" fill="#f8f8fa" stroke="#5fb236" stroke-width="2.5"/>
+  <rect x="30" y="360" width="640" height="38" rx="10" fill="#5fb236"/>
+  <rect x="30" y="388" width="640" height="4" fill="#5fb236"/>
+  <text x="50" y="385" class="phase-num">FASE 2</text>
+  <text x="120" y="385" class="phase-num">CO-CREACIÓN</text>
+  <text x="470" y="385" class="phase-num" font-size="12" font-weight="400">Sem 8–14</text>
+  <rect x="570" y="371" width="46" height="20" rx="4" fill="#fff" fill-opacity="0.3"/>
+  <text x="593" y="385" text-anchor="middle" class="oe-tag">OE 2</text>
+
+  <text x="50" y="420" class="detail">• Talleres de co-creación de narrativas digitales bilingües</text>
+  <text x="50" y="440" class="detail">• Registro audiovisual del proceso (videos, audios)</text>
+  <text x="50" y="460" class="detail">• Diario de campo (continúa)</text>
+  <text x="50" y="480" class="product-label">Producto:</text>
+  <text x="130" y="480" class="product-text">Mín. 5 narrativas digitales bilingües + secuencia didáctica validada</text>
+
+  <!-- IAP cycle -->
+  <path d="M 680 420 Q 700 420, 700 400 L 700 300 Q 700 260, 680 260" class="cycle-line"/>
+  <polygon points="680,254 680,266 692,260" fill="#f19837"/>
+  <text x="693" y="345" class="cycle-label" transform="rotate(90, 693, 345)">Ciclos IAP</text>
+
+  <!-- Arrow down -->
+  <line x1="350" y1="490" x2="350" y2="520" class="arrow-line"/>
+
+  <!-- ==================== FASE 3 ==================== -->
+  <rect x="30" y="525" width="640" height="130" rx="10" fill="#f8f8fa" stroke="#a28ae5" stroke-width="2.5"/>
+  <rect x="30" y="525" width="640" height="38" rx="10" fill="#a28ae5"/>
+  <rect x="30" y="553" width="640" height="4" fill="#a28ae5"/>
+  <text x="50" y="550" class="phase-num">FASE 3</text>
+  <text x="120" y="550" class="phase-num">ANÁLISIS</text>
+  <text x="470" y="550" class="phase-num" font-size="12" font-weight="400">Sem 15–17</text>
+  <rect x="570" y="536" width="46" height="20" rx="4" fill="#fff" fill-opacity="0.3"/>
+  <text x="593" y="550" text-anchor="middle" class="oe-tag">OE 3</text>
+
+  <text x="50" y="585" class="detail">• Transcripción y codificación cualitativa</text>
+  <text x="50" y="605" class="detail">• Triangulación de fuentes (entrevistas, diarios de campo, videos)</text>
+  <text x="50" y="635" class="product-label">Producto:</text>
+  <text x="130" y="635" class="product-text">Matriz de transformaciones (diálogo de saberes + identidad cultural)</text>
+
+  <!-- Arrow down -->
+  <line x1="350" y1="655" x2="350" y2="685" class="arrow-line"/>
+
+  <!-- ==================== FASE 4 ==================== -->
+  <rect x="30" y="690" width="640" height="120" rx="10" fill="#f8f8fa" stroke="#f19837" stroke-width="2.5"/>
+  <rect x="30" y="690" width="640" height="38" rx="10" fill="#f19837"/>
+  <rect x="30" y="718" width="640" height="4" fill="#f19837"/>
+  <text x="50" y="715" class="phase-num">FASE 4</text>
+  <text x="120" y="715" class="phase-num">SOCIALIZACIÓN</text>
+  <text x="540" y="715" class="phase-num" font-size="12" font-weight="400">Sem 18</text>
+
+  <text x="50" y="750" class="detail">• Devolución de resultados a la comunidad educativa</text>
+  <text x="50" y="770" class="detail">• Informe final de investigación</text>
+  <text x="50" y="795" class="product-label">Producto:</text>
+  <text x="130" y="795" class="product-text">Repositorio offline de narrativas + informe final + devolución comunitaria</text>
+
+  <!-- ==================== SEPARATOR ==================== -->
+  <line x1="30" y1="845" x2="670" y2="845" stroke="#ddd" stroke-width="1"/>
+
+  <!-- ==================== HILO DORADO ==================== -->
+  <text x="350" y="880" text-anchor="middle" class="section-title">Hilo dorado — Coherencia metodológica</text>
+
+  <!-- Row of 4 boxes -->
+  <rect x="30" y="900" width="145" height="65" rx="6" fill="#f8f8fa" stroke="#ddd" stroke-width="1"/>
+  <text x="103" y="922" text-anchor="middle" class="ht-label">Paradigma</text>
+  <text x="103" y="940" text-anchor="middle" class="ht-detail">Sociocrítico</text>
+  <text x="103" y="955" text-anchor="middle" class="ht-detail">(comprender + transformar)</text>
+
+  <text x="185" y="935" fill="#999" font-size="16">→</text>
+
+  <rect x="200" y="900" width="145" height="65" rx="6" fill="#f8f8fa" stroke="#ddd" stroke-width="1"/>
+  <text x="273" y="922" text-anchor="middle" class="ht-label">Enfoque</text>
+  <text x="273" y="940" text-anchor="middle" class="ht-detail">Cualitativo, decolonial</text>
+  <text x="273" y="955" text-anchor="middle" class="ht-detail">e intercultural crítico</text>
+
+  <text x="355" y="935" fill="#999" font-size="16">→</text>
+
+  <rect x="370" y="900" width="130" height="65" rx="6" fill="#f8f8fa" stroke="#ddd" stroke-width="1"/>
+  <text x="435" y="922" text-anchor="middle" class="ht-label">Método</text>
+  <text x="435" y="940" text-anchor="middle" class="ht-detail">IAP con enfoque</text>
+  <text x="435" y="955" text-anchor="middle" class="ht-detail">intercultural</text>
+
+  <text x="510" y="935" fill="#999" font-size="16">→</text>
+
+  <rect x="525" y="895" width="145" height="75" rx="6" fill="#f8f8fa" stroke="#ddd" stroke-width="1"/>
+  <text x="598" y="917" text-anchor="middle" class="ht-label">Pregunta</text>
+  <text x="598" y="935" text-anchor="middle" class="ht-detail">¿Cómo contribuye la</text>
+  <text x="598" y="950" text-anchor="middle" class="ht-detail">co-creación al diálogo</text>
+  <text x="598" y="965" text-anchor="middle" class="ht-detail">de saberes e identidad?</text>
+
+  <!-- ==================== OBJETIVOS ==================== -->
+  <text x="350" y="1010" text-anchor="middle" class="section-title">Objetivos específicos</text>
+
+  <rect x="30" y="1025" width="200" height="55" rx="6" fill="#e8f4fc" stroke="#2ea8e5" stroke-width="1.5"/>
+  <rect x="38" y="1033" width="42" height="18" rx="4" fill="#2ea8e5"/>
+  <text x="59" y="1046" text-anchor="middle" class="oe-tag">OE 1</text>
+  <text x="88" y="1046" class="ht-label">Caracterizar</text>
+  <text x="38" y="1066" class="ht-detail">Saberes prioritarios para narrar</text>
+
+  <rect x="250" y="1025" width="200" height="55" rx="6" fill="#eef7e8" stroke="#5fb236" stroke-width="1.5"/>
+  <rect x="258" y="1033" width="42" height="18" rx="4" fill="#5fb236"/>
+  <text x="279" y="1046" text-anchor="middle" class="oe-tag">OE 2</text>
+  <text x="308" y="1046" class="ht-label">Diseñar e implementar</text>
+  <text x="258" y="1066" class="ht-detail">Secuencia de co-creación</text>
+
+  <rect x="470" y="1025" width="200" height="55" rx="6" fill="#f0ecf8" stroke="#a28ae5" stroke-width="1.5"/>
+  <rect x="478" y="1033" width="42" height="18" rx="4" fill="#a28ae5"/>
+  <text x="499" y="1046" text-anchor="middle" class="oe-tag">OE 3</text>
+  <text x="528" y="1046" class="ht-label">Analizar</text>
+  <text x="478" y="1066" class="ht-detail">Transformaciones emergentes</text>
+
+  <!-- ==================== INSTRUMENTOS ==================== -->
+  <text x="350" y="1120" text-anchor="middle" class="section-title">Instrumentos</text>
+
+  <rect x="30" y="1140" width="14" height="14" rx="3" fill="#2ea8e5"/>
+  <text x="50" y="1152" class="inst-label">Entrevistas semiestructuradas</text>
+
+  <rect x="270" y="1140" width="14" height="14" rx="3" fill="#2ea8e5"/>
+  <text x="290" y="1152" class="inst-label">Grupos focales (dibujo/oral)</text>
+
+  <rect x="510" y="1140" width="14" height="14" rx="3" fill="#5fb236"/>
+  <text x="530" y="1152" class="inst-label">Registro audiovisual</text>
+
+  <rect x="30" y="1170" width="14" height="14" rx="3" fill="#a28ae5"/>
+  <text x="50" y="1182" class="inst-label">Diario de campo</text>
+
+  <rect x="270" y="1170" width="14" height="14" rx="3" fill="#a28ae5"/>
+  <text x="290" y="1182" class="inst-label">Análisis documental (PEI)</text>
+
+  <rect x="510" y="1170" width="14" height="14" rx="3" fill="#5fb236"/>
+  <text x="530" y="1182" class="inst-label">Rúbrica co-construida</text>
+
+</svg>
