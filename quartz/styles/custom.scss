@@ -1,3 +1,112 @@
 @use "./base.scss";
+@use "./variables.scss" as *;
 
-// put your custom CSS here!
+// ---- Página de servicio (inicio) ----
+
+.satg-hero {
+  margin: 0.5rem 0 2rem;
+  padding: 1.5rem;
+  border-radius: 12px;
+  background: var(--highlight);
+  border: 1px solid var(--lightgray);
+
+  .satg-eyebrow {
+    margin: 0 0 0.5rem;
+    font-size: 0.9rem;
+    font-weight: 600;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: var(--secondary);
+  }
+
+  .satg-lead {
+    margin: 0 0 1.25rem;
+    font-size: 1.2rem;
+    line-height: 1.55;
+  }
+}
+
+.satg-cta-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+
+a.satg-btn {
+  display: inline-block;
+  padding: 0.7rem 1.2rem;
+  min-height: 44px;
+  box-sizing: border-box;
+  border-radius: 8px;
+  font-weight: 600;
+  text-align: center;
+  text-decoration: none;
+  background: transparent;
+  transition: opacity 0.15s ease;
+
+  &:hover {
+    opacity: 0.88;
+  }
+
+  &.satg-btn-primary {
+    background-color: var(--secondary);
+    color: var(--light);
+  }
+
+  &.satg-btn-secondary {
+    border: 2px solid var(--secondary);
+    color: var(--secondary);
+  }
+}
+
+.satg-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1rem;
+  margin: 1rem 0 2rem;
+}
+
+.satg-card {
+  padding: 1rem 1.25rem;
+  border: 1px solid var(--lightgray);
+  border-radius: 10px;
+
+  h3 {
+    margin: 0 0 0.5rem;
+    color: var(--secondary);
+  }
+
+  p {
+    margin: 0;
+    line-height: 1.5;
+  }
+}
+
+.satg-contact {
+  margin: 2.5rem 0 1rem;
+  padding: 1.5rem;
+  border-radius: 12px;
+  text-align: center;
+  border: 2px solid var(--secondary);
+  scroll-margin-top: 1rem;
+
+  h2 {
+    margin-top: 0;
+  }
+}
+
+@media all and ($mobile) {
+  .satg-hero {
+    padding: 1.1rem;
+
+    .satg-lead {
+      font-size: 1.05rem;
+    }
+  }
+
+  .satg-cta-row a.satg-btn,
+  .satg-contact a.satg-btn {
+    display: block;
+    width: 100%;
+  }
+}
