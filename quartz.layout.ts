@@ -10,7 +10,7 @@ export const sharedPageComponents: SharedLayout = {
     links: {
       Inicio: "/satg-site/",
       Recursos: "/satg-site/recursos",
-      Contacto: "/satg-site/#contacto",
+      Contacto: "https://wa.me/573116128640?text=Hola%20Juan%20Camilo%2C%20me%20interesa%20la%20asesor%C3%ADa%20de%20tesis",
     },
   }),
 }
