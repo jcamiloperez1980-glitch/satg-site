@@ -9,7 +9,7 @@ tags: []
   <p class="satg-eyebrow">Juan Camilo Pérez · Research AI Lab</p>
   <p class="satg-lead">Te acompaño a llevar tu tesis de maestría o doctorado <strong>del anteproyecto a la sustentación</strong>, con un método trazable: referencias verificadas, notas conectadas y un sitio web propio de tu investigación.</p>
   <div class="satg-cta-row">
-    <a class="satg-btn satg-btn-primary" href="#contacto">Agenda una conversación inicial</a>
+    <a class="satg-btn satg-btn-primary" href="https://wa.me/573116128640?text=Hola%20Juan%20Camilo%2C%20me%20interesa%20la%20asesor%C3%ADa%20de%20tesis">Agenda una conversación inicial</a>
     <a class="satg-btn satg-btn-secondary" href="#cómo-trabajamos">Ver cómo trabajamos</a>
   </div>
 </div>
@@ -119,6 +119,6 @@ Este sitio también es un jardín de notas abierto con el método que uso: plant
 <div class="satg-contact" id="contacto">
   <h2>¿Hablamos de tu tesis?</h2>
   <p>Cuéntame tu programa, tu tema y tus plazos. La conversación inicial sirve para ver si el acompañamiento es para ti.</p>
-  <!-- PENDIENTE: reemplazar href="#contacto" por el enlace real (formulario, WhatsApp, correo o agenda). -->
-  <a class="satg-btn satg-btn-primary" href="#contacto">Escríbeme</a>
+  <!-- PENDIENTE: reemplazar href="https://wa.me/573116128640?text=Hola%20Juan%20Camilo%2C%20me%20interesa%20la%20asesor%C3%ADa%20de%20tesis" por el enlace real (formulario, WhatsApp, correo o agenda). -->
+  <a class="satg-btn satg-btn-primary" href="https://wa.me/573116128640?text=Hola%20Juan%20Camilo%2C%20me%20interesa%20la%20asesor%C3%ADa%20de%20tesis">Escríbeme</a>
 </div>
