@@ -6,7 +6,7 @@ tags: [metodologia]
 # Estudio de caso, DBR y validación de modelos
 
 ## Estudio de caso cualitativo (Stake / Yin)
-- **Instrumental** (Stake): el caso interesa como ventana a un fenómeno mayor — el diseño real de [[Ficha - Sandra Mosquera|Sandra]].
+- **Instrumental** (Stake): el caso interesa como ventana a un fenómeno mayor — p. ej., el diseño de un caso de doctorado.
 - No confundir con etnografía: la etnografía exige inmersión prolongada y foco cultural; observar aulas y entrevistar docentes en visitas programadas es estudio de caso.
 - Defensa del caso único: la meta no es generalización estadística sino **transferibilidad** (descripción densa del contexto para que otros juzguen aplicabilidad) y, en Yin, generalización analítica hacia la teoría.
 
@@ -29,5 +29,5 @@ Regla del SATG: **toda tesis doctoral aplicada que "diseña" algo debe incluir a
 ## Métodos mixtos — nombrar el diseño (Creswell & Plano Clark)
 - **Convergente:** QUAN + QUAL en paralelo, integración en la discusión.
 - **Secuencial explicativo (DEXPLIS):** QUAN → QUAL explica los números.
-- **Secuencial exploratorio (DEXPLOS):** QUAL → construye/valida instrumento QUAN. (Ruta A de [[Ficha - Daniela Ortiz|Daniela]].)
+- **Secuencial exploratorio (DEXPLOS):** QUAL → construye/valida instrumento QUAN. (p. ej., la ruta A de un caso de maestría.)
 - Si no se puede decir cuál es y cómo se integran los datos, no es mixto: son dos estudios pegados.

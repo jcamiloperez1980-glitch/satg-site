@@ -8,8 +8,8 @@ import * as Plugin from "./quartz/plugins"
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "SATG",
-    pageTitleSuffix: " — Sistema de Asesoría TG",
+    pageTitle: "SATG · Asesoría de tesis",
+    pageTitleSuffix: " | Juan Camilo Pérez — Asesoría de tesis",
     enableSPA: true,
     enablePopovers: true,
     analytics: null,
