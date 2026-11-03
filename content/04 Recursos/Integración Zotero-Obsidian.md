@@ -13,7 +13,7 @@ tags: [sistema, zotero, referencias]
 3. Export automático `.bib` de la biblioteca (Better BibTeX → "Keep updated").
 
 ## Organización en Zotero
-Una **colección por estudiante** (`SATG/Cristina`, `SATG/Daniela`, `SATG/Sandra`) + una colección `SATG/Metodología` compartida. Así el mismo PDF puede vivir en dos colecciones sin duplicarse.
+Una **colección por estudiante** (`SATG/Tesis-A`, `SATG/Tesis-B`, `SATG/Tesis-C`) + una colección `SATG/Metodología` compartida. Así el mismo PDF puede vivir en dos colecciones sin duplicarse.
 
 ## Sistema de resaltado por colores (Smart Note-Taking)
 

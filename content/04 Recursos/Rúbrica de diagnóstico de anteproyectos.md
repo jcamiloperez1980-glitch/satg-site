@@ -26,7 +26,7 @@ tags: [sistema, rubrica]
 ## 3. Alcance para el nivel académico
 > **Desdoblada por nivel.** Aplicar SOLO la sub-tabla que corresponde al campo `nivel:` de la ficha. El eje: maestría = *dominio aplicado*; doctorado = *contribución original validada*. Ver [[Checklist de nivel de posgrado]].
 
-### 3a · Si es 🎓 Maestría (Cristina, Daniela)
+### 3a · Si es 🎓 Maestría
 | Nivel | Descriptor                                                                                                                                                                                                     |
 | ----- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | 4     | Aporte aplicado sólido: estrategia / caracterización / intervención con categorías teóricas trabajadas y rigor metodológico; producto útil y validado localmente (triangulación + validación por la comunidad) |
@@ -34,7 +34,7 @@ tags: [sistema, rubrica]
 | 2     | Se lee como proyecto de aula/pregrado: ejecuta una actividad sin categorías teóricas ni criterios de rigor                                                                                                     |
 | 1     | Inviable en tiempo/recursos, o alcance nacional/global sin diseño que lo soporte                                                                                                                               |
 
-### 3b · Si es 🎓🎓 Doctorado (Sandra)
+### 3b · Si es 🎓🎓 Doctorado
 | Nivel | Descriptor |
 |---|---|
 | 4 | Contribución original (modelo / teoría / metodología) posicionada frente a la literatura **internacional**, con validación formal (Delphi / juicio de expertos / DBR) y 1-2 productos publicables identificados |
